@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+   position: fixed;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+}
+
+.moving-clouds {
+  -webkit-animation: cloudLoop 80s linear infinite;
+  animation: cloudLoop 80s linear infinite;
 }
 
 .App-header {
@@ -29,4 +35,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.mail{
+  bottom: 2;
+  right: 2;
+}
+
+.Houssem {
+  font-family: serif;
+}
+
+header{
+  position: static;
 }

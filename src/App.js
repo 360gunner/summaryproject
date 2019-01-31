@@ -1,25 +1,41 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Heading from './Heading';
+import Sum from './Sum';
+import Scroll from './Scroll';
+import Particles from 'react-particles-js';
+
+
+const particleOptions = {
+  particles: {
+    number: {
+      value: 120,
+      density: {
+        enable: true,
+        value_area: 800,
+      }
+    }
+  }
+}
+
+
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App moving-clouds">
+      	<Particles className='particles'
+          params={particleOptions} 
+        />
+
+       <header>  <Heading />  </header>
+        <br/>
+        <br/>
+        <Scroll className="Houssem">
+
+        </Scroll>
       </div>
     );
   }
