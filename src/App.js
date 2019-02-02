@@ -11,12 +11,19 @@ import Particles from 'react-particles-js';
 const particleOptions = {
   particles: {
     number: {
-      value: 300,
+      value: 85,
       density: {
         enable: true,
         value_area: 800,
       }
-    }
+    },
+    line_linked: {
+                    shadow: {
+                      enable: true,
+                      color: "#3CA9D1",
+                      blur: 1
+                    }
+                  }
   }
 }
 
@@ -35,7 +42,7 @@ class App extends Component {
         <br/>
         <br/><br/>
         <Posts />
-      </div>
+        </div>
     );
   }
 }

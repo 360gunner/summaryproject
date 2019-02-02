@@ -1,9 +1,9 @@
 .heading {
 	
 	font-family:"Billabong", Gadget, sans-serif;
-	position: relative;
+	
 	z-index: 4;
-	top: 
+	top: 0;
 	
 }
 
@@ -14,10 +14,7 @@
 	margin-bottom:  -13%;
 }
 
-img{
-	max-height: 150;
-	max-width: 300;
-}
+
 
 
 
@@ -27,7 +24,16 @@ img{
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: 10px;
+  .pic {
+    width: 100px;
+    height: 100px;
   }
+}
+
+@media (max-width: 1280px) {
+  
+  .infos {
+    font-size: 15px;
+  }
+  
 }

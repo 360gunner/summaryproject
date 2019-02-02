@@ -1,3 +1,32 @@
 .tabtab {
 	position: static;
 }
+
+@media (max-width: 1280px) {
+  
+  .fontaze {
+  	font-size: 15px;
+  }
+  
+}
+
+.pic {
+	border-radius: 50%;
+	width: 200px;
+
+}
+
+.yes {
+	width: 230px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pic {
+    width: 100px;
+    height: 100px;
+  }
+  .yes {
+	width: 110px;
+}
+}
+

@@ -39,7 +39,7 @@ const Heading = () => {
 			<div className="dt dt--fixed w-100">
 			<div className="dtc">	<img className="tc pa10 ma10 dib v-mid" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/115/1641376115_71389139-4a83-41fd-ae87-d5f9f82bb9d9.png?cb=1548951932" />
 			</div>
-			<div className="dtc">	<img className="pic tc pa10 ma10 dib v-top ba b--orange bw2" src="https://scontent-mrs1-1.cdninstagram.com/vp/2fe3a99ebfda8d76c1aa9d22f7a1af31/5CE0407C/t51.2885-19/s150x150/50243491_345738996268900_3627233210141769728_n.jpg?_nc_ht=scontent-mrs1-1.cdninstagram.com" alt="Avatar" />
+			<div className="dtc">	<img className="pic tc pa10 ma10 dib v-top ba b--orange bw2" src="https://scontent-mrs1-1.xx.fbcdn.net/v/t1.0-9/49435938_780383995654836_2462355405641089024_n.jpg?_nc_cat=109&_nc_ht=scontent-mrs1-1.xx&oh=bca2c6dda92c60c3f3cf3bab53fa7082&oe=5CB71334" alt="Avatar" />
 			</div>
 			<div className="dtc">
 			<p className="tc dib v-mid infos">

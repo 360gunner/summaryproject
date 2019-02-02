@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-   position: fixed;
+   
 }
 
 .App-logo {
@@ -57,4 +57,18 @@
 
 header{
   position: static;
+}
+
+footer{
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 1280px) {
+  
+  body {
+    font-size: 15px;
+  }
+  
+  
 }
